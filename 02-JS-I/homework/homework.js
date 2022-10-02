@@ -4,16 +4,16 @@
 const nuevaString = 'Hola';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum = 5;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === null;
@@ -27,8 +27,8 @@ const nuevoModulo = 21 % 5 === null;
 
 function devolverString(str) {
   // "Return" la string provista: str
-  // Tu código:
-  
+  // Tu código: 
+  str = 'Hola mundo';
 }
 
 function suma(x, y) {
@@ -81,7 +81,12 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if(num >= 50){
+    str = 'True';
+  }
+  else if(num > 50 ){
+    str = 'Falso';
+  }
 }
 
 function obtenerResto(x, y) {
